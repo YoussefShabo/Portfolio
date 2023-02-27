@@ -1,0 +1,372 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(83, 85, 80);
+    scroll-behavior: smooth;
+}
+
+#footer{
+    text-align: center;
+}
+#scrollUp{
+    width: 25px;
+
+}
+#btn{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    background-color: white;
+    margin-left: 50%;
+    cursor: pointer;
+    display: none;
+}
+hr {
+    width: 90%;
+}
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  .closeIcon {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    transform: translateY(-105%);
+    transition: transform 0.4s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(196, 198, 245);
+    list-style: none;
+  }
+  .menuItem{
+    font-size: 36px;
+    font-weight: 900;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 50px;
+  }
+  .showMenu {
+    transform: translateY(0);
+  }
+  .menuIcon {
+    width: 50px;
+  }
+  .closeIcon {
+    width: 50px;
+
+  }
+  #headshot{
+    width: 400px;
+    margin: 40px;
+  }
+  .hero{
+    width: 80%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .heroText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .resume{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    border: solid rgb(102, 103, 171);
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 103, 171);
+  }
+  #title {
+    font-weight: bolder;
+  }
+  #personalimgs {
+    height: 900px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .personal {
+    width: 300px;  
+    margin: 2%;
+    }
+#icon{
+    width: 40px;
+    margin: 4px;
+}
+#modal{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+	display: none;
+}
+#modal-textbox{
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 10px;
+	margin: 150px auto;
+  padding: 3%;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.close {
+    width: 50px;
+    display: block;
+margin-left: 500px;
+margin-top: 0px;
+}
+#mapModal {
+    display: flex;
+    flex-direction: row ;
+}
+#map {
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+@media (max-width: 600px){
+
+.headertext{
+    text-align: center;
+}
+.titleText{
+    text-align: center;
+}
+#headshot{
+    width: 10vw;
+
+}
+.hero{
+  width: 80%;
+  height: 80vh;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.heroText{
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+}
+@media (max-width: 900px) {
+.headertext{
+    text-align: center;
+}
+.titleText{
+    text-align: center;
+}
+#headshot{
+    margin-top: 350px;
+    width: 300px;
+}
+.hero{
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+}
+.heroText{
+  width: 70%;
+}
+#personalimgs {
+  height: 1400px;
+  width: 650px;
+}
+.personal {
+    width: 300px;  
+    margin: 2%;
+}
+}
+@media (max-width: 600px) {
+.headertext{
+    text-align: center;
+}
+#headshot{
+    margin-top: 50px;
+    width: 200px;
+}
+.hero {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#personalimgs {
+    height: 2400px;
+    width: 450px;
+}
+.personal {
+    width: 300px;  
+    margin: 2%;
+}
+
+}
+
+/* Carousel Section */
+.carousel-container {
+	width: 60%;
+	display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+}
+.carousel-images {
+	width: 80%;
+	box-sizing: border-box;
+}
+.carousel-images img {
+	width: 100%;
+	display: none;
+}
+.carousel-button {
+	align-self: center;
+	background: #9072a8;
+	color: #888;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 1px 1px #b09e66;
+}
+.carousel-button:hover {
+	cursor: pointer;
+	background: #342f2f;
+	box-shadow: 1px 1px #6e516e;
+	color: white;
+}
+
+.carousel-images img:first-of-type {
+	display: block;
+}
+
+/* Play Page */
+.section{
+margin-left: 17%;
+}
+.playsection{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+.playsection:hover{
+filter: grayscale(1);
+}
+.arch{
+  font-weight: 600;
+  font-size: 50px;
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+.photo{
+  font-weight: 600;
+  font-size: 60px;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+.art{
+  font-weight: 600;
+  font-size: 60px;
+  position: absolute;
+  top: 92%;
+  left: 15%;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+
+/* Resume Page */
+.experience{
+  margin-left: 5%;
+}
+.field {
+margin-left: 13%;
+}
+.exp {
+  display: flex;
+  flex-direction: row;
+  margin-left: 18%;
+}
+.expTitle{
+  width: 32%;
+  margin-bottom: 0%;
+}
+.edu{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10%;
+  height: 20px;
+}
+.paragaph {
+  width: 50%;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.school {
+  line-height: 40%;
+  margin-left: 18%;
+}
+.skills{
+
+  margin-left: 5%;
+}
+p {
+  font-weight: 200;
+  font-size: small;
+}
+h4{
+  font-weight: 600;
+}
