@@ -100,8 +100,8 @@ $btn2.on('click', openProject2)
 
     })
 
-    function toggleProjects() {
-      if ($btn1.click)
+    // function toggleProjects() {
+    //   if ($btn1.click)
     //   if ($btn1.classList.contains("showMenu")) {
     //     menu.classList.remove("showMenu");
     //     closeIcon.style.display = "none";
@@ -111,7 +111,7 @@ $btn2.on('click', openProject2)
     //     closeIcon.style.display = "block";
     //     menuIcon.style.display = "none";
     //   }
-    }
+    // }
     
     // hamburger.addEventListener("click", toggleMenu);
     
