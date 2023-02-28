@@ -46,6 +46,10 @@ $(() =>{
 
     let currnetImgIndex = 0
 const numOfImages = $('.carousel-images').children().length - 1
+
+// Show first image
+$('.carousel-images').children().eq(currnetImgIndex).css('display', 'block');
+
     //Next button event
     $('.next').on('click', () => {
       $('.carousel-images').children().eq(currnetImgIndex).css('display','none')
@@ -77,4 +81,37 @@ function scrollFunction() {
       myButton.style.display = "none"
     }
 }
+const $btn1 = $('#btn1');
+const $div1 = $('#div1');
+
+const openProject1 = () => {
+  $div1.toggleClass("hidden unhidden")
+}
+$btn1.on('click', openProject1)
+
+const $btn2 = $('#btn2');
+const $div2 = $('#div2');
+
+const openProject2 = () => {
+  $div2.css('display', 'block')
+}
+$btn2.on('click', openProject2)
+
+
     })
+
+    // function toggleProjects() {
+    //   if ($btn1.classList.contains("showMenu")) {
+    //     menu.classList.remove("showMenu");
+    //     closeIcon.style.display = "none";
+    //     menuIcon.style.display = "block";
+    //   } else {
+    //     menu.classList.add("showMenu");
+    //     closeIcon.style.display = "block";
+    //     menuIcon.style.display = "none";
+    //   }
+    // }
+    
+    // hamburger.addEventListener("click", toggleMenu);
+    
+    

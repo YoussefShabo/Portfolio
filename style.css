@@ -139,13 +139,13 @@ hr {
 	background-color: white;
 	height: 350px;
 	width: 550px;
-	border-radius: 10px;
+	border-radius: 30px;
 	margin: 150px auto;
-  padding: 3%;
+  padding: 2%;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 .close {
-    width: 50px;
+    width: 40px;
     display: block;
 margin-left: 500px;
 margin-top: 0px;
@@ -157,7 +157,7 @@ margin-top: 0px;
 #map {
     width: 250px;
     margin-left: 70px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 25px;
 }
 @media (max-width: 600px){
@@ -247,9 +247,9 @@ margin-top: 0px;
 .carousel-container {
 	width: 60%;
 	display: flex;
-margin-left: auto;
-margin-right: auto;
-justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
 }
 .carousel-images {
 	width: 80%;
@@ -285,7 +285,7 @@ margin-left: 17%;
 }
 .playsection{
     width: 80%;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -296,37 +296,6 @@ margin-left: 17%;
 .playsection:hover{
 filter: grayscale(1);
 }
-.arch{
-  font-weight: 600;
-  font-size: 50px;
-  position: absolute;
-  top: 22%;
-  left: 15%;
-  width: 70%;
-  color: white;
-  text-align: center;
-}
-.photo{
-  font-weight: 600;
-  font-size: 60px;
-  position: absolute;
-  top: 55%;
-  left: 15%;
-  width: 70%;
-  color: white;
-  text-align: center;
-}
-.art{
-  font-weight: 600;
-  font-size: 60px;
-  position: absolute;
-  top: 92%;
-  left: 15%;
-  width: 70%;
-  color: white;
-  text-align: center;
-}
-
 /* Resume Page */
 .experience{
   margin-left: 5%;
@@ -370,4 +339,40 @@ p {
 }
 h4{
   font-weight: 600;
+}
+
+/* Conditional rendering test */
+
+#div1 {
+background-color: aqua;
+width: 300px;
+height: 300px;
+z-index: 1;
+overflow: auto;
+display: none;
+position: fixed;
+top: 50;
+left: 50;
+}
+
+
+
+
+#div2 {
+background-color: #9072a8;
+width: 300px;
+height: 300px;
+z-index: 2;
+overflow: auto;
+display: none;
+position: fixed;
+top: 50;
+left: 50;
+}
+
+.hidden {
+  display: none;
+}
+.unhidden {
+  display: block;
 }
