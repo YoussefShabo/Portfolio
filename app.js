@@ -85,7 +85,7 @@ const $btn1 = $('#btn1');
 const $div1 = $('#div1');
 
 const openProject1 = () => {
-  $div1.toggleClass("hidden unhidden")
+  $div1.css('display', 'block')
 }
 $btn1.on('click', openProject1)
 
@@ -100,7 +100,8 @@ $btn2.on('click', openProject2)
 
     })
 
-    // function toggleProjects() {
+    function toggleProjects() {
+      if ($btn1.click)
     //   if ($btn1.classList.contains("showMenu")) {
     //     menu.classList.remove("showMenu");
     //     closeIcon.style.display = "none";
@@ -110,7 +111,7 @@ $btn2.on('click', openProject2)
     //     closeIcon.style.display = "block";
     //     menuIcon.style.display = "none";
     //   }
-    // }
+    }
     
     // hamburger.addEventListener("click", toggleMenu);
     
