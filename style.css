@@ -89,7 +89,8 @@ hr {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
   }
   .resume{
     width: 100px;
