@@ -428,9 +428,11 @@ h4{
 	border-radius: 30px;
 	margin: 150px auto;
   padding: 2%;
-  /* border: 1px solid grey; */
 }
 
 .close{
 margin-left: 98%;
+}
+#btndiv{
+  display: flex;
 }
