@@ -11,7 +11,7 @@ body {
     width: 25px;
 
 }
-#btn{
+#btnUp{
     position: fixed;
     bottom: 50px;
     right: 30px;
@@ -124,6 +124,7 @@ hr {
     width: 40px;
     margin: 4px;
 }
+/* Modal Section */
 #modal{
 	background-color: rgba(0, 0, 0, 0.4);
 	position: fixed;
@@ -345,35 +346,6 @@ h4{
   font-weight: 600;
 }
 
-/* Conditional rendering test */
-
-#div1 {
-background-color: aqua;
-width: 300px;
-height: 300px;
-z-index: 1;
-overflow: auto;
-display: none;
-position: fixed;
-top: 50;
-left: 50;
-}
-
-
-
-
-#div2 {
-background-color: #9072a8;
-width: 300px;
-height: 300px;
-z-index: 2;
-overflow: auto;
-display: none;
-position: fixed;
-top: 50;
-left: 50;
-}
-
 
 /* Art Projects Page */
 #artproj{
@@ -404,4 +376,61 @@ left: 50;
   zoom: 200%;
   rotate: 30deg;
   box-shadow: 2px 2px 6px #5a5a5a;
+}
+
+.hover {
+  color: rgb(83, 85, 80);
+  background: radial-gradient( rgba(102,103,171,1) 100%, rgb(102, 103, 171) 100%)
+    var(--c,0%)/200% 100%,
+    radial-gradient( rgba(102,103,171,1) 100%, rgb(102, 103, 171) 100%)
+    0% 100%/var(--c,0%) 0.1em no-repeat;
+  -webkit-background-clip: text, padding-box;
+  transition: .5s;
+}
+.hover:hover {
+  color: #0000;
+  --c:100%;
+}
+#title {
+  font-family: system-ui, sans-serif;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+/* project modal */
+#projectphoto {
+  width: 47%;
+  margin: 1%;
+
+}
+.projectbtn {
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  border-radius: 20px;
+  border: solid rgb(102, 103, 171);
+  background-color: rgb(255, 255, 255);
+  color: rgb(102, 103, 171);
+  cursor: pointer;
+}
+#projectmodal {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	display: none;
+}
+#projectmodal-textbox {
+	background-color: white;
+	width: 80%;
+	border-radius: 30px;
+	margin: 150px auto;
+  padding: 2%;
+  /* border: 1px solid grey; */
+}
+
+.close{
+margin-left: 98%;
 }

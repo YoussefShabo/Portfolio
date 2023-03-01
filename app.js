@@ -38,6 +38,23 @@ $(() =>{
     }
     $closeBtn.on('click', closeModal)
     
+    //Project Modal
+    const $openPBtn = $('#openPModal');
+    const $projectModal = $('#projectmodal');
+    const $closePBtn = $('#closeProject');
+    
+    
+    
+    const openPModal = () => {
+        $projectModal.css('display', 'block')
+    }
+    $openPBtn.on('click', openPModal)
+    
+    const closePModal = () => {
+        $projectModal.css('display', 'none')
+    }
+    $closePBtn.on('click', closePModal)
+    
     // setTimeout(openModal, 5000)
     // setTimeout(closeModal, 10000)
     
