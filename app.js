@@ -38,7 +38,7 @@ $(() =>{
     }
     $closeBtn.on('click', closeModal)
     
-    //Project Modal
+    //Project Modal1
     const $openPBtn = $('#openPModal');
     const $projectModal = $('#projectmodal');
     const $closePBtn = $('#closeProject');
@@ -46,9 +46,13 @@ $(() =>{
     
     
     const openPModal = () => {
+
         $projectModal.css('display', 'block')
+        closePModal2()
+        closePModal3()
     }
     $openPBtn.on('click', openPModal)
+    
     
     const closePModal = () => {
         $projectModal.css('display', 'none')
@@ -63,17 +67,39 @@ $(() =>{
     
     
     const openPModal2 = () => {
-        $projectModal.css('display', 'block')
+
+        $projectModal2.css('display', 'block')
+        closePModal()
+        closePModal3()
     }
-    $openPBtn.on('click', openPModal2)
+    $openPBtn2.on('click', openPModal2)
+  
     
     const closePModal2 = () => {
         $projectModal2.css('display', 'none')
     }
     $closePBtn2.on('click', closePModal2)
     
-    // setTimeout(openModal, 5000)
-    // setTimeout(closeModal, 10000)
+    //Project Modal3
+    const $openPBtn3 = $('#openPModal3');
+    const $projectModal3 = $('#projectmodal3');
+    const $closePBtn3 = $('#closeProject3');
+    
+    
+    
+    const openPModal3 = () => {
+
+        $projectModal3.css('display', 'block')
+        closePModal()
+        closePModal2()
+    }
+    $openPBtn3.on('click', openPModal3)
+  
+    
+    const closePModal3 = () => {
+        $projectModal3.css('display', 'none')
+    }
+    $closePBtn3.on('click', closePModal3)
     
 
     // Carousel section:
@@ -81,22 +107,19 @@ $(() =>{
     let currnetImgIndex = 0
 const numOfImages = $('.carousel-images').children().length - 1
 
-// Show first image
-$('.carousel-images').children().eq(currnetImgIndex).css('display', 'block');
-
     //Next button event
     $('.next').on('click', () => {
       $('.carousel-images').children().eq(currnetImgIndex).css('display','none')
       if (currnetImgIndex < numOfImages) {
         currnetImgIndex++
-    }else {
+    } else {
       currnetImgIndex = 0
   }
   $('.carousel-images').children().eq(currnetImgIndex).css('display', 'block')
 })
 //Previous button event
 $('.previous').on('click', () => {
-    $('.carousel-images').children().eq(currnetImgIndex).css('display','none')
+    $('.ccarousel-images').children().eq(currnetImgIndex).css('display','none')
     if (currnetImgIndex > 0) {
         currnetImgIndex--
     } else {
@@ -105,7 +128,7 @@ $('.previous').on('click', () => {
     $('.carousel-images').children().eq(currnetImgIndex).css('display', 'block')
     })
     // Scroll button section
-const myButton = document.getElementById("btn");
+const myButton = document.getElementById("btnUp");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {

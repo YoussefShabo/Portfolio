@@ -2,10 +2,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(83, 85, 80);
     scroll-behavior: smooth;
+
 }
 
 #footer{
     text-align: center;
+    margin-bottom: 0px;
 }
 #scrollUp{
     width: 25px;
@@ -251,9 +253,9 @@ margin-top: 0px;
 /* Carousel Section */
 .carousel-container {
 	width: 60%;
-	display: flex;
   margin-left: auto;
   margin-right: auto;
+	display: flex;
   justify-content: space-around;
 }
 .carousel-images {
@@ -403,7 +405,7 @@ h4{
   margin: 1%;
 
 }
-.projectbtn .projectbtn2 {
+.projectbtn, .projectbtn2, .projectbtn3 {
   width: 200px;
   height: 40px;
   margin: 30px;
@@ -413,7 +415,7 @@ h4{
   color: rgb(102, 103, 171);
   cursor: pointer;
 }
-#projectmodal #projectmodal2 {
+#projectmodal, #projectmodal2, #projectmodal3 {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -422,17 +424,19 @@ h4{
 	overflow: auto;
 	display: none;
 }
-#projectmodal-textbox #projectmodal-textbox2 {
+#projectmodal-textbox, #projectmodal-textbox2, #projectmodal-textbox3 {
 	background-color: white;
 	width: 80%;
 	border-radius: 30px;
-	margin: 150px auto;
+	margin: 25px auto;
   padding: 2%;
 }
 
-.close .close2 {
+.close, .close2, .close3 {
 margin-left: 98%;
 }
 #btndiv{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
