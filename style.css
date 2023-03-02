@@ -141,10 +141,10 @@ hr {
 #modal-textbox{
 	background-color: white;
 	height: 350px;
-	width: 550px;
+	width: 600px;
 	border-radius: 30px;
 	margin: 150px auto;
-  padding: 2%;
+  padding: 4%;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 .close {
