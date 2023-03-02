@@ -119,7 +119,7 @@ const numOfImages = $('.carousel-images').children().length - 1
 })
 //Previous button event
 $('.previous').on('click', () => {
-    $('.ccarousel-images').children().eq(currnetImgIndex).css('display','none')
+    $('.carousel-images').children().eq(currnetImgIndex).css('display','none')
     if (currnetImgIndex > 0) {
         currnetImgIndex--
     } else {
