@@ -255,44 +255,6 @@ margin-top: 0px;
 
 }
 
-/* Projects Section */
-.projectsbkgnd{
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -5;
-}
-.logos{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 80vh;
-}
-.projlogo{
-  width: 20%;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 1%;
-  height: 250px;
-  object-fit: contain;
-}
-.yosha{
-  border: 5px solid #d46c4e;
-  position: relative;
-  top: 80px;
-}
-.rayo{
-  border: 5px solid #f9ad6a;
-}
-.cardify{
-  border: 5px solid #43978d;
-  position: relative;
-  top: 80px;
-}
-.timas{
-  border: 5px solid #264d59;
-}
 
 /* Play Page */
 .section{
@@ -450,4 +412,41 @@ margin-left: 98%;
 }
 #spline{
 width: 45vw;
+}
+.splinemac{
+position: relative;
+align-self: center;
+width: 50%;
+  height: 70vh;
+  margin-left: 0;
+}
+.projPresentation{
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text{
+  width: 45vw;
+  margin-right: 0px;
+  text-align: center;
+}
+iframe{
+  width: 35vw;
+}
+.banner1{
+  width: 75%;
+  height: 150px;
+  z-index: -2;
+  background-color: rgb(102, 103, 171);
+  border: 10px solid rgb(196, 198, 245);
+  filter: blur(4px);
+  position: relative;
+  top: 50vh;
+  left: -12px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
 }
