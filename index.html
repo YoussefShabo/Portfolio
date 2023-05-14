@@ -2,115 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&display=swap"
-        rel="stylesheet">
-    <title>YS | Home</title>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style600.css">
+        <link rel="stylesheet" href="style900.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&display=swap"
+                rel="stylesheet">
+        <title>YS | Home</title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+                integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a class="menuItem" href="index.html">Home</a></li>
-        <li><a class="menuItem" href="work.html">Work</a></li>
-        <li><a class="menuItem" href="play.html">Play</a></li>
-        <li><a class="menuItem" href="resume.html">Resume</a></li>
-    </ul>
-    <h1 class="headertext">Youssef Shabo</h1>
+        <ul class="menu">
+                <li><a class="menuItem" href="index.html">Home</a></li>
+                <li><a class="menuItem" href="work.html">Work</a></li>
+                <li><a class="menuItem" href="play.html">Play</a></li>
+                <li><a class="menuItem" href="about.html">About</a></li>
+        </ul>
+        <button class="hamburger">
+                <img class="menuIcon material-icons" src="Portfolio/imgs/icons/hamburger (1).png" alt="hamburger menu">
+                <img class="closeIcon material-icons" src="Portfolio/imgs/icons/white cross.png" alt="close menu">
+        </button>
+        <h1 class="HPtitle-sm">Youssef Shabo</h1>
+        <h3 class="HPsubtitle-sm">Software Engineer</h3>
+        <iframe class="HPtitle" src='https://my.spline.design/transitionnamecopy-c7b619699cc8ad060813cba594807997/'
+                frameborder='0' width='100%' height='100%'></iframe>
+        <div class="bar">
+                <a href="index.html"><img class="icon1 invert" src="Portfolio/imgs/icons/home.png" alt=""></a>
+                <div>
+                        <p class="hide">Home</p>
+                </div>
+                <a href="about.html"><img class="icon1 invert" src="Portfolio/imgs/icons/user.png" alt=""></a>
+                <a href="work.html"><img class="icon1 invert" src="Portfolio/imgs/icons/mission.png" alt=""></a>
+                <a href="play.html"><img class="icon1 invert" src="Portfolio/imgs/icons/art.png" alt=""></a>
+                <hr class="barhr" />
 
-    <section class="modal">
-        <div id="modal">
-            <div id="modal-textbox">
-                <a id="close" href="#"><img class="close" src="Portfolio/imgs/icons/cross.png" alt=""></a>
-                <Section id="mapModal">
-                    <div>
-                        <h1>Contact</h1><br>
-                        <h3>Youssef Shabo</h3>
-                        <p>youssefshabo@gmail.com</p>
-                        <p>614 . 772 . 8263</p>
-                        <p>Austin | TX</p>
-                        <a href="https://www.linkedin.com/in/youssefshabo//"><img id="icon"
+                <a href="https://www.linkedin.com/in/youssefshabo//"><img class="icon2 invert"
                                 src="Portfolio/imgs/icons/Social Media/BW/linkedin.png" alt=""></a>
-                        <a href="https://issuu.com/youssefshabo"><img id="icon"
+
+                <a href="https://issuu.com/youssefshabo"><img class="icon2 invert"
                                 src="Portfolio/imgs/icons/Social Media/BW/issuu.png" alt=""></a>
-                        <a href="https://www.facebook.com/youssef.shaboo/"><img id="icon"
-                                src="Portfolio/imgs/icons/Social Media/BW/facebook.png" alt=""></a>
-                        <a href="https://www.instagram.com/youssefshabo/"><img id="icon"
+
+                <a href="https://www.instagram.com/youssefshabo/"><img class="icon2 invert"
                                 src="Portfolio/imgs/icons/Social Media/BW/instagram.png" alt=""></a>
 
-                        <a href="https://github.com/YoussefShabo"><img id="icon"
+                <a href="https://github.com/YoussefShabo"><img class="icon2 invert"
                                 src="Portfolio/imgs/icons/Social Media/BW/github.png" alt=""></a>
 
-                    </div>
-                    <div>
-                        <a href="https://ibb.co/nC9s1m5"><img id="map" src="https://i.ibb.co/yStnkPb/map.png"
-                                alt="map"></a>
-                    </div>
-                </Section>
-            </div>
+                <a href=""><img class="icon2 invert" src="Portfolio/imgs/icons/email.png" alt=""></a>
+
+                <hr class="barhr" />
+                <div class="toggle-btn" id="themeToggle">
+                        <img class="icon3 invert" src="Portfolio/imgs/icons/day-and-night.png" alt="">
+                </div>
+
+
         </div>
-    </section>
-
-    <Section class="hero">
-        <a href="https://ibb.co/b5mj1Qq"><img id="headshot" src="/Portfolio/imgs/headshotGif.gif" alt="head-shot-2"
-                width="400px"></a>
-        <div class="heroText">
-            <h1 id="title" class="hover">Hi, I'm Youssef!</h1>
-            <p class="heroInner">
-                I'm a Full-Stack developer with over 3 years of experience in architectural design. Equipped with an
-                English Literature degree, I bring a unique perspective on the development process, adding a creative
-                flair to every project.</br></br>
-                My design philosophy is based on da Vinci's, "Simplicity is the ultimate sophistication," and apply this
-                principle to every project.</br></br>
-                In my free time, I enjoy practicing yoga, salsa dancing, and exploring cities' architectural marvels.
-                With a passion for traveling, I'm always seeking new experiences and ideas to inspire the next great
-                project.
-            </p>
-            <a href="Resume2023.pdf" target="_blank"><button class="resume hover">Resume</button></a>
-            <button class="resume hover" id="openModal">Contact</button>
-        </div>
-    </Section>
-    <button class="hamburger">
-        <img class="menuIcon material-icons" src="Portfolio/imgs/icons/hamburger (1).png" alt="hamburger menu">
-        <img class="closeIcon material-icons" src="Portfolio/imgs/icons/white cross.png" alt="close menu">
-    </button>
-    <section id="personalimgs">
-
-        <a href="https://ibb.co/vxf3hnR"><img class="personal" src="https://i.ibb.co/TBJ413d/IMG-20200403-180857.jpg"
-                alt="IMG-20200403-180857"></a>
-
-        <a href="https://ibb.co/ydGSgDn"><img class="personal" src="https://i.ibb.co/mb18hmC/IMG-20220624-WA0007.jpg"
-                alt="IMG-20220624-WA0007"></a>
-
-        <a href="https://ibb.co/0Y268ng"><img class="personal" src="https://i.ibb.co/gt9fHr5/DSC-0502.jpg"
-                alt="DSC-0502"></a>
-
-        <a href="https://ibb.co/0YkGqXW"><img class="personal" src="https://i.ibb.co/vLbj1Br/IMG-20211029-WA0116.jpg"
-                alt="IMG-20211029-WA0116"></a>
-
-        <a href="https://ibb.co/7Y6Xts4"><img class="personal" src="https://i.ibb.co/vwKH40Y/IMG-20201104-WA0004.jpg"
-                alt="IMG-20201104-WA0004"></a>
-
-        <a href="https://ibb.co/yFVqHkC"><img class="personal" src="https://i.ibb.co/nMRjx1y/DSC-8035.jpg"
-                alt="DSC-8035"></a>
-
-        <a href="https://ibb.co/jfHzjSr"><img class="personal" src="https://i.ibb.co/yPVpxrQ/IMG-2941.jpg"
-                alt="IMG-2941"></a>
-
-    </section>
-
-
-    <footer>
-        <a href="#" id="btnUp"><img id="scrollUp" src="Portfolio/imgs/icons/up-arrow.png" alt=""></a>
-        <hr>
-        <p id="footer">Youssef Shabo © 2023</p>
-    </footer>
-    <script src="app.js"></script>
+        <script src="app.js">
+        </script>
 </body>
 
 </html>
