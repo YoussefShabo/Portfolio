@@ -170,53 +170,6 @@ margin-left: 17%;
 filter: grayscale(1);
 }
 /* ---------------------------------------------------- */
-/* Resume Page */
-/* ---------------------------------------------------- */
-.experience{
-  margin-left: 5%;
-}
-.field {
-margin-left: 13%;
-}
-.exp {
-  display: flex;
-  flex-direction: row;
-  margin-left: 18%;
-}
-.expTitle{
-  width: 32%;
-  margin-bottom: 0%;
-}
-.edu{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 10%;
-  height: 20px;
-}
-.paragaph {
-  width: 50%;
-  margin-left: 5%;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.school {
-  line-height: 40%;
-  margin-left: 18%;
-}
-.skills{
-
-  margin-left: 5%;
-}
-p {
-  font-weight: 200;
-  font-size: small;
-}
-h4{
-  font-weight: 600;
-}
-
-/* ---------------------------------------------------- */
 /* Art Projects Page */
 /* ---------------------------------------------------- */
 #artproj{
@@ -274,6 +227,9 @@ h4{
   width: 47%;
   margin: 1%;
 
+}
+.staticMac{
+  display: none;
 }
 .projectbtn, .projectbtn2, .projectbtn3 {
   width: 200px;
@@ -355,7 +311,7 @@ margin-left: 98%;
 }
 .icon1{
   width: 40px;
-  margin: 5px;
+  margin: 4px;
 opacity: 0.7;
 }
 .icon1:hover{
@@ -366,7 +322,7 @@ opacity: 0.7;
 }
 .icon2{
   width: 40px;
-  margin: 5px;
+  margin: 4px;
   opacity: 0.7;
 }
 .icon2:hover {
@@ -377,7 +333,7 @@ opacity: 0.7;
 }
 .icon3{
   width: 40px;
-  margin: 5px;
+  margin: 4px;
   opacity: 0.7;
 }
 .icon3:hover {

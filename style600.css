@@ -74,14 +74,32 @@
   .vid{
     display: block;
     }
-.splinemac{
-    display: none;
-}
 .section{
     margin: 0%;
 }
 .playsection{
     width: 100%;
     margin: 2% 0;
+}
+.splinemac{
+  display: none;
+  transition: 1s;
+}
+.staticMac{
+display: block;
+width: 300px;
+transition: 1s;
+}
+.projPresentationA, .projPresentationB{
+ 
+width: 80%;
+margin: 5%;
+}
+.text1, .text2, .text3, .text4{
+color: #264d59;
+text-align: center;
+}
+.bckgndShape1, .bckgndShape2, .bckgndShape3, .bckgndShape4{
+display: none;
 }
   }
