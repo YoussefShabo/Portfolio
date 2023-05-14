@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
     body{
         overflow-x: hidden;
     }
@@ -74,13 +74,13 @@
   }
   .staticMac{
     display: block;
-    width: 500px;
+    width: 600px;
     transition: 1s;
   }
   .projPresentationA, .projPresentationB{
     padding: 5%;
-    width: 50%;
-    margin: 20%;
+    width: 40%;
+    margin: 25%;
     background-color: #264d5913;
     border-radius: 20px;
   }
