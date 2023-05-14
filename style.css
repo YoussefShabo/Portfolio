@@ -130,15 +130,35 @@ h5{
     background-color: rgb(255, 255, 255);
     color: rgb(102, 103, 171);
   }
+  .skillicons{
+    width: 60%;
+    margin: 5% 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .singlSkill{
+    max-height: 90px;
+    margin: 2%;
+    opacity: 0.5;
+    transition: 0.7s;
+  }
+  .singlSkill:hover{
+    max-height: 130px;
+    opacity: 1;
+    transition: 0.7s;
+    margin: 0%;
+  }
   #title {
     font-weight: bolder;
   }
   #personalimgs {
-    height: 900px;
-    width: 950px;
+    height: 800px;
+    width: 770px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 500px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -146,8 +166,8 @@ h5{
     align-items: center;
   }
   .personal {
-    width: 300px;  
-    margin: 2%;
+    width: 250px;  
+    margin: 0.5%;
     }
 
 /* ---------------------------------------------------- */

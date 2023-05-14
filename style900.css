@@ -1,76 +1,76 @@
 @media (min-width: 601px) and (max-width: 900px) {
-    body{
-        overflow-x: hidden;
-    }
-    .headertext{
-        text-align: center;
-    }
-    .titleText{
-        text-align: center;
-    }
-    #headshot{
-        margin-top: 350px;
-        width: 300px;
-    }
-    .hero{
-        width: 90%;
-        flex-direction: column;
-        text-align: center;
-    }
-    .heroText{
-      width: 70%;
-    }
-    #personalimgs {
-      height: 1400px;
-      width: 650px;
-    }
-    .personal {
-        width: 300px;  
-        margin: 2%;
-    }
-    .HPtitle{
-        display: none;
-    }
-    .HPtitle-sm{
-        display: block;
-        text-align: center;
-        margin-top: 45%;
-        font-size: 60px;
-        margin-bottom: 0%;
-        background: -webkit-linear-gradient(0deg, #264d59 0%, #43978d 25%, #f9e07f 50%, #f9ad6a 75%, #d46c4e 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      .HPsubtitle-sm{
-        display: block;
-        text-align: center;
-        font-size: 30px;
-        margin-top: 2%;
-      }
+  body{
+    overflow-x: hidden;
+  }
+  .headertext{
+    text-align: center;
+  }
+  .titleText{
+    text-align: center;
+  }
+  #headshot{
+    margin-top: 350px;
+    width: 300px;
+  }
+  .hero{
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .heroText{
+    width: 70%;
+  }
+  #personalimgs {
+    height: 1400px;
+    width: 650px;
+  }
+  .personal {
+    width: 300px;  
+    margin: 2%;
+  }
+  .HPtitle{
+    display: none;
+  }
+  .HPtitle-sm{
+    display: block;
+    text-align: center;
+    margin-top: 45%;
+    font-size: 60px;
+    margin-bottom: 0%;
+    background: -webkit-linear-gradient(0deg, #264d59 0%, #43978d 25%, #f9e07f 50%, #f9ad6a 75%, #d46c4e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .HPsubtitle-sm{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+  }
 
-      .projPresentationA{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        margin-left: 0;
-      }
-      .projPresentationB{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-      }
-      .section{
-        margin: 0%;
-    }
-    .playsection{
-        width: 100%;
-        margin: 2% 0;
-    }
-    .splinemac{
-      display: none;
-      transition: 1s;
+  .projPresentationA{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0;
+  }
+  .projPresentationB{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .section{
+    margin: 0%;
+  }
+  .playsection{
+    width: 100%;
+    margin: 2% 0;
+  }
+  .splinemac{
+    display: none;
+    transition: 1s;
   }
   .staticMac{
     display: block;
@@ -84,11 +84,11 @@
     background-color: #264d5913;
     border-radius: 20px;
   }
-.text1, .text2, .text3, .text4{
-  color: #264d59;
-  text-align: center;
-}
+  .text1, .text2, .text3, .text4{
+    color: #264d59;
+    text-align: center;
+  }
   .bckgndShape1, .bckgndShape2, .bckgndShape3, .bckgndShape4{
     display: none;
   }
-    }
+}
