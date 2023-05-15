@@ -305,7 +305,7 @@ margin-left: 98%;
 /* ---------------------------------------------------- */
 .bar{
   display: block;
-  width: 442px;
+  width: 490px;
   height: 55px;
   border-radius: 50px;
   background-color: rgba(146, 146, 146, 0.1);
@@ -327,13 +327,27 @@ margin-left: 98%;
   margin: 5px 10px;
   opacity: 0.5;
 }
+.icontext{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .hide {
-  display: none;
+  width: 55px;
+  opacity: 0;
+  transition: 0.7s;
+}
+.icontext:hover .hide{
+  opacity: 0.5;
+  transition: 0.7s;
 }
 .icon1{
   width: 40px;
   margin: 4px;
   opacity: 0.7;
+  transition: 1s;
 }
 .icon1:hover{
   background-color: rgb(102, 103, 171);
@@ -345,6 +359,7 @@ margin-left: 98%;
   width: 40px;
   margin: 4px;
   opacity: 0.7;
+  transition: 1s;
 }
 .icon2:hover {
   background-color: #f9ad6a;
@@ -356,6 +371,7 @@ margin-left: 98%;
   width: 40px;
   margin: 4px;
   opacity: 0.7;
+  transition: 1s;
 }
 .icon3:hover {
   background-color: #43978d;

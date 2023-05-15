@@ -9,11 +9,12 @@
     text-align: center;
   }
   #headshot{
-    margin-top: 350px;
+    margin-top: 50px;
     width: 300px;
   }
   .hero{
     width: 90%;
+    height: auto;
     flex-direction: column;
     text-align: center;
   }

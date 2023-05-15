@@ -26,15 +26,21 @@
   }
   #headshot{
     width: 60vw; 
-    margin-top: 30%;
+    margin-top: 10%;
   }
   .heroText{
   width: 80vw;
+  text-align: center;
   }
   #personalimgs {
-  width: 600px;
-  margin-top: 300px auto;
+    height: auto;
+  margin-top: 100px;
   display: block;
+  }
+  .personal{
+    width: 100vw;
+    margin-left: 0;
+
   }
   .HPtitle{
   display: none;
