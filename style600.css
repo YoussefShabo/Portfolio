@@ -112,4 +112,7 @@
   .bckgndShape1, .bckgndShape2, .bckgndShape3, .bckgndShape4{
   display: none;
   }
+  .link{
+    color: #264d59;
+  }
 }
