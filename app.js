@@ -1,3 +1,31 @@
+// Initialize EmailJS
+emailjs.init("youssefshabo@gmail.com"); // Replace with your EmailJS user ID
+
+// Function to handle form submission
+function handleSubmit(event) {
+  event.preventDefault(); // Prevent form from submitting normally
+
+  const userEmail = emailInput.value; // Get the entered email address
+
+  // Send the email using EmailJS
+  emailjs
+    .send("service_0ka0v27", "template_db6fono", { email: userEmail })
+    .then(() => {
+      console.log("Email sent!");
+      // Add code here to show a success message or perform any additional actions
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error);
+      // Add code here to show an error message or handle the error
+    });
+
+  // Reset the form
+  emailForm.reset();
+}
+
+// Add event listener to the form
+emailForm.addEventListener("submit", handleSubmit);
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger = document.querySelector(".hamburger");
@@ -152,18 +180,3 @@ $(() => {
   };
   $btn2.on("click", openProject2);
 });
-
-// function toggleProjects() {
-//   if ($btn1.click)
-//   if ($btn1.classList.contains("showMenu")) {
-//     menu.classList.remove("showMenu");
-//     closeIcon.style.display = "none";
-//     menuIcon.style.display = "block";
-//   } else {
-//     menu.classList.add("showMenu");
-//     closeIcon.style.display = "block";
-//     menuIcon.style.display = "none";
-//   }
-// }
-
-// hamburger.addEventListener("click", toggleMenu);
