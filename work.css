@@ -38,7 +38,7 @@
   width: 45vw;
   margin-right: 0px;
   text-align: center;
-  color: #264d59;
+  color: #f9e07f;
 }
 .bckgndShape3{
   top: 177.5%;
@@ -48,7 +48,7 @@
   transform: translate(-50%, -50%);
   width: 90%;
   height: 200px;
-  background-color: #f9e07f;
+  background-color: #d58641;
   transform: skew(20deg);
   z-index: -5;
 }
@@ -105,3 +105,26 @@ display: none;
     iframe{
       width: 35vw;
     }
+.showMac{
+  width: 45%;
+}
+.displayMac{
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.showtext{
+  width: 50%;
+  margin: 5% auto 15%;
+  font-weight: lighter;
+}
+.showBtn{
+  display: flex;
+  align-items: center;
+}
+.link{
+text-decoration: none;
+  color: #f9e07f;
+}
