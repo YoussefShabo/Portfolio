@@ -1,6 +1,6 @@
 @media (max-width: 600px){
   body{
-    overflow-x: hidden;
+  overflow-x: hidden;
   }
   .bar{
   display: none;
@@ -12,34 +12,34 @@
   text-align: center;
   }
   .titleText{
-    text-align: center;
+  text-align: center;
   }
   /* ---------------------------------------------------- */
   /* ABOUT PAGE */
   /* ---------------------------------------------------- */
   .hero{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   #headshot{
-    width: 60vw; 
-    margin-top: 10%;
+  width: 60vw; 
+  margin-top: 10%;
   }
   .heroText{
   width: 80vw;
   text-align: center;
   }
   #personalimgs {
-    height: auto;
+  height: auto;
   margin-top: 100px;
   display: block;
   }
   .personal{
-    width: 100vw;
-    margin-left: 0;
+  width: 100vw;
+  margin-left: 0;
 
   }
   .HPtitle{
@@ -90,16 +90,16 @@
   margin: 0;
   }
   .projectbtn{
-    height: 60px;
-    border-radius: 30px;
+  height: 60px;
+  border-radius: 30px;
   }
   .projectbtn2{
-    height: 60px;
-    border-radius: 30px;
+  height: 60px;
+  border-radius: 30px;
   }
   .projectbtn3{
-    height: 60px;
-    border-radius: 30px;
+  height: 60px;
+  border-radius: 30px;
   }
   /* ---------------------------------------------------- */
   /* WORK PAGE */
