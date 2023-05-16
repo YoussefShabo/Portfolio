@@ -89,6 +89,18 @@
   object-fit: contain;
   margin: 0;
   }
+  .projectbtn{
+    height: 60px;
+    border-radius: 30px;
+  }
+  .projectbtn2{
+    height: 60px;
+    border-radius: 30px;
+  }
+  .projectbtn3{
+    height: 60px;
+    border-radius: 30px;
+  }
   /* ---------------------------------------------------- */
   /* WORK PAGE */
   /* ---------------------------------------------------- */
