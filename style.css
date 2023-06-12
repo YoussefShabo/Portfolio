@@ -620,6 +620,25 @@ margin-left: 98%;
 .HPsubtitle-sm{
   display: none;
 }
+.HPtext{
+  position: fixed;
+  left: 22%;
+  top: 24%;
+  font-size: 7.2vw;
+  font-weight: 600;
+  z-index: -5;
+  background: -webkit-linear-gradient(0deg, #264d59 0%, #43978d 25%, #f9e07f 50%, #f9ad6a 75%, #d46c4e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.HPsubtext{
+  position: fixed;
+  left: 28.5%;
+  top: 42.5%;
+  font-size: 4.2vw;
+  font-weight: 600;
+  z-index: -5;
+}
 .skills{
   text-align: center;
 
