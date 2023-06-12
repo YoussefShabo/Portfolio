@@ -276,6 +276,9 @@ filter: grayscale(1);
   animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
   display: flex;
 }
+h1{
+  font-weight: 300;
+}
 
 .container .box .title h1 {
   color: #535551;
