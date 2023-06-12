@@ -61,6 +61,12 @@
   font-size: 30px;
   margin-top: 2%;
   }
+  .HPtext{
+    display: none;
+  }
+  .HPsubtext{
+    display: none;
+  }
 
   .projPresentationA{
   width: 100%;

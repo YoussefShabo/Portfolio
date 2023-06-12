@@ -101,4 +101,10 @@
   .showtext{
     width: 90%;
   }
+  .HPtext{
+    display: none;
+  }
+  .HPsubtext{
+    display: none;
+  }
 }
