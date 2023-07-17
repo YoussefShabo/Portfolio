@@ -473,8 +473,13 @@ h1{
   margin: 1%;
 
 }
-.staticMac{
+.splinemac{
   display: none;
+}
+.staticMac{
+  display: block;
+  width: 600px;
+  margin: 9% 0;
 }
 .projectbtn, .projectbtn2, .projectbtn3 {
   width: 200px;
