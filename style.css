@@ -143,14 +143,11 @@ body {
     opacity: 0.5;
     transition: 0.7s;
   }
-  .singlSkill:hover{
+  .singlSkill:hover {
     max-height: 130px;
     opacity: 1;
     transition: 0.7s;
     margin: 0%;
-  }
-  .tailwind{
-    height: 60px;
   }
   #personalimgs {
     height: 800px;
