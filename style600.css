@@ -133,4 +133,20 @@
   .link{
     color: #264d59;
   }
+  .otherProDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .otherPro{
+    width: 50%;
+  }
+  .otherProImg{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 15%;
+  }
 }

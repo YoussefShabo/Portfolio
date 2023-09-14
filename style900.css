@@ -107,4 +107,11 @@
   .HPsubtext{
     display: none;
   }
+
+  .otherProImg{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 15%;
+  }
 }
