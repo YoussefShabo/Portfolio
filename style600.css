@@ -108,6 +108,20 @@
   border-radius: 30px;
   }
   /* ---------------------------------------------------- */
+  /* Architecture PAGE */
+  /* ---------------------------------------------------- */
+  .render{
+    width: 40vw;
+    object-fit: contain;
+  }
+  #btndiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* ---------------------------------------------------- */
   /* WORK PAGE */
   /* ---------------------------------------------------- */
   .splinemac{
