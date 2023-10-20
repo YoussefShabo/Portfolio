@@ -248,7 +248,9 @@ filter: grayscale(1);
   font-size: 3rem;
   cursor: pointer;
 }
-
+h5{
+  font-weight: 400;
+}
 /* ---------------------------------------------------- */
 /* About Page Animation */
 /* ---------------------------------------------------- */
