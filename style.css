@@ -492,7 +492,7 @@ h1{
   width: 600px;
   margin: 9% 0;
 }
-.projectbtn, .projectbtn2, .projectbtn3 {
+.projectbtn, .projectbtn2, .projectbtn3, .projectbtn4 {
   width: 200px;
   height: 40px;
   margin: 30px;
@@ -502,7 +502,7 @@ h1{
   color: rgb(102, 103, 171);
   cursor: pointer;
 }
-#projectmodal, #projectmodal2, #projectmodal3 {
+#projectmodal, #projectmodal2, #projectmodal3, #projectmodal4 {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -511,7 +511,7 @@ h1{
 	overflow: auto;
 	display: none;
 }
-#projectmodal-textbox, #projectmodal-textbox2, #projectmodal-textbox3 {
+#projectmodal-textbox, #projectmodal-textbox2, #projectmodal-textbox3, #projectmodal-textbox4 {
 	background-color: white;
 	width: 80%;
 	border-radius: 30px;
@@ -519,7 +519,7 @@ h1{
   padding: 2%;
 }
 
-.close, .close2, .close3 {
+.close, .close2, .close3, .close4 {
 margin-left: 98%;
 }
 #btndiv{

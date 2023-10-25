@@ -64,6 +64,7 @@ $(() => {
     $projectModal2.css("display", "block");
     closePModal();
     closePModal3();
+    closePModal4();
   };
   $openPBtn2.on("click", openPModal2);
 
@@ -81,6 +82,7 @@ $(() => {
     $projectModal3.css("display", "block");
     closePModal();
     closePModal2();
+    closePModal4();
   };
   $openPBtn3.on("click", openPModal3);
 
@@ -88,6 +90,24 @@ $(() => {
     $projectModal3.css("display", "none");
   };
   $closePBtn3.on("click", closePModal3);
+
+  //Project Modal4
+  const $openPBtn4 = $("#openPModal4");
+  const $projectModal4 = $("#projectmodal4");
+  const $closePBtn4 = $("#closeProject4");
+
+  const openPModal4 = () => {
+    $projectModal4.css("display", "block");
+    closePModal();
+    closePModal2();
+    closePModal3();
+  };
+  $openPBtn4.on("click", openPModal4);
+
+  const closePModal4 = () => {
+    $projectModal4.css("display", "none");
+  };
+  $closePBtn4.on("click", closePModal4);
 
   // Carousel section:
 
