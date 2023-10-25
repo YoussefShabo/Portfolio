@@ -47,6 +47,7 @@ $(() => {
     $projectModal.css("display", "block");
     closePModal2();
     closePModal3();
+    closePModal4();
   };
   $openPBtn.on("click", openPModal);
 
