@@ -38,16 +38,24 @@ $(() => {
   };
   $closeBtn.on("click", closeModal);
 
+
+  // Closing other modals
+
+  const closeAllModals = () => {
+    $projectModal.css("display", "none");
+    $projectModal2.css("display", "none");
+    $projectModal3.css("display", "none");
+    $projectModal4.css("display", "none");
+  };
+
   //Project Modal1
   const $openPBtn = $("#openPModal");
   const $projectModal = $("#projectmodal");
   const $closePBtn = $("#closeProject");
 
   const openPModal = () => {
+    closeAllModals(); // Close all other modals
     $projectModal.css("display", "block");
-    closePModal2();
-    closePModal3();
-    closePModal4();
   };
   $openPBtn.on("click", openPModal);
 
@@ -62,10 +70,8 @@ $(() => {
   const $closePBtn2 = $("#closeProject2");
 
   const openPModal2 = () => {
+    closeAllModals(); // Close all other modals
     $projectModal2.css("display", "block");
-    closePModal();
-    closePModal3();
-    closePModal4();
   };
   $openPBtn2.on("click", openPModal2);
 
@@ -80,10 +86,8 @@ $(() => {
   const $closePBtn3 = $("#closeProject3");
 
   const openPModal3 = () => {
+    closeAllModals(); // Close all other modals
     $projectModal3.css("display", "block");
-    closePModal();
-    closePModal2();
-    closePModal4();
   };
   $openPBtn3.on("click", openPModal3);
 
@@ -98,10 +102,8 @@ $(() => {
   const $closePBtn4 = $("#closeProject4");
 
   const openPModal4 = () => {
+    closeAllModals(); // Close all other modals
     $projectModal4.css("display", "block");
-    closePModal();
-    closePModal2();
-    closePModal3();
   };
   $openPBtn4.on("click", openPModal4);
 
